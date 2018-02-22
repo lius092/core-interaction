@@ -1,0 +1,32 @@
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+}
+
+header{
+  height:100px;
+  background-color: green;
+
+}
+
+main{
+  padding: 50px;
+  background-color: yellow;
+
+}
+
+.container{
+  padding: 25px;
+  background-color: orange;
+  display:flex;
+
+}
+
+.container-item-outer{
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 33.333%;
+  padding: 25px;
+  background-color: blue;
+}
