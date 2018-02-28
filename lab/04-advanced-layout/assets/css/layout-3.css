@@ -78,6 +78,35 @@ main{
   padding-bottom: calc(33.333% - 25px;)
 }
 
+
+@media (max-width:700px){
+  header{
+    justify-content: space-between;
+  }
+  .container-item-outer{
+    flex-basis: 100%;
+  }
+  .container-item-inner{
+    padding-bottom:50%;
+  }
+}
+
+@media (max-width:700px){
+  .container{
+    background-color: lightblue;
+  }
+  .container-item-inner{
+    background-color: navy;
+  }
+  .stacked:first-child{
+    background-color: steelblue;
+  }
+  /* .double{
+    background-color: navy;
+  }
+   */
+}
+
 /* .container-item-outer{
   flex-grow: 0;
   flex-shrink: 0;

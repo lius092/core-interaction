@@ -1,0 +1,87 @@
+main{
+  width: 900px;
+  height: 900px;
+  background-color: rgba(235, 203, 99, 100);
+}
+
+.circle1{
+  background-color: rgba(216, 216, 216, 100);
+  width: 278px;
+  height: 278px;
+  border-radius: 50%;
+  position: absolute;
+  left: 622px;
+  top: 17px;
+}
+
+.circle2{
+  background-color: rgba(215, 127, 77, 100);
+  width: 189px;
+  height: 184px;
+  border-radius: 50%;
+  position: absolute;
+  left: 121px;
+  top: 109px;
+}
+
+.circle3{
+  background-color: rgba(235, 203, 99, 100);
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  position: absolute;
+  left: 168px;
+  top: 354px;
+}
+
+.circle4{
+  background-color: rgba(55, 76, 90, 100);
+  width: 321px;
+  height: 321px;
+  border-radius: 50%;
+  position: absolute;
+  left: 514px;
+  top: 528px;
+}
+
+.rectangle1{
+  background-color: rgba(155, 155, 155, 100);
+  width: 70px;
+  height: 900px;
+  position: absolute;
+  left: 146px;
+}
+
+.rectangle2{
+  background-color: rgba(204, 204, 204, 100);
+  width: 170px;
+  height: 339px;
+  position: absolute;
+  left: 216px;
+  top: 201px;
+}
+
+.rectangle3{
+  background-color: rgba(98, 175, 158, 100);
+  width: 333px;
+  height: 171px;
+  position: absolute;
+  left: 310px;
+  top: 450px;
+}
+
+.rectangle4{
+  background-color: rgba(215, 127, 77, 100);
+  width: 899px;
+  height: 13px;
+  position: absolute;
+  top: 318px;
+}
+
+.rectangle5{
+  background-color: rgba(55, 76, 90, 100);
+  width: 900px;
+  height: 33px;
+  position: absolute;
+  top: 340px;
+}
