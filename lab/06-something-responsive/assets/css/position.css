@@ -1,0 +1,565 @@
+main{
+  width: 1200px;
+  height: 1500px;
+}
+
+.circle1{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+.circle2{
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  top: 200px;
+}
+
+.circle3{
+  background-color: orange;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 800px;
+  top: 200px;
+}
+
+.circle4{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 600px;
+}
+
+
+.circle5{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  top: 600px;
+}
+
+.circle6{
+  background-color: purple;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 800px;
+  top: 600px;
+}
+
+.circle7{
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 1000px;
+}
+
+.circle8{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  top: 1000px;
+}
+
+.circle9{
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  left: 800px;
+  top: 1000px;
+}
+
+.rectangle1{
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.rectangle2{
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+  position: absolute;
+  top: 1400px;
+  left: 0px;
+}
+
+.rectangle3{
+  background-color: black;
+  width: 50px;
+  height: 1300px;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+
+.rectangle4{
+  background-color: black;
+  width: 50px;
+  height: 1300px;
+  position: absolute;
+  top: 100px;
+  left: 1150px;
+}
+
+.p1{
+  font-size: 50px;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top: 264px;
+  left: 410px;
+}
+
+.p2{
+  font-size: 50px;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top: 664px;
+  left: 410px;
+}
+
+.p3{
+  font-size: 50px;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top: 1064px;
+  left: 410px;
+}
+
+.p4{
+  font-size: 50px;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top: 264px;
+  left: 760px;
+}
+
+.p5{
+  font-size: 50px;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top: 664px;
+  left: 760px;
+}
+
+.p6{
+  font-size: 50px;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top: 1064px;
+  left: 760px;
+}
+
+
+
+@media (max-width: 768px){
+  main{
+    width: 768px;
+    height: 950px;
+  }
+
+  .circle1{
+    background-color: red;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 64px;
+    top: 128px;
+  }
+
+  .circle2{
+    background-color: yellow;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 288px;
+    top: 128px;
+  }
+
+  .circle3{
+    background-color: orange;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 512px;
+    top: 128px;
+  }
+
+  .circle4{
+    background-color: blue;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 64px;
+    top: 379px;
+  }
+
+
+  .circle5{
+    background-color: red;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 288px;
+    top: 379px;
+  }
+
+  .circle6{
+    background-color: purple;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 512px;
+    top: 379px;
+  }
+
+  .circle7{
+    background-color: yellow;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 64px;
+    top: 630px;
+  }
+
+  .circle8{
+    background-color: blue;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 288px;
+    top: 630px;
+  }
+
+  .circle9{
+    background-color: green;
+    width: 192px;
+    height: 192px;
+    border-radius: 25%;
+    position: absolute;
+    left: 512px;
+    top: 630px;
+  }
+
+  .rectangle1{
+    background-color: black;
+    width: 768px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .rectangle2{
+    background-color: black;
+    width: 768px;
+    height: 60px;
+    position: absolute;
+    top: 890px;
+    left: 0px;
+  }
+
+  .rectangle3{
+    background-color: black;
+    width: 32px;
+    height: 830px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+  }
+
+  .rectangle4{
+    background-color: black;
+    width: 32px;
+    height: 830px;
+    position: absolute;
+    top: 60px;
+    left: 736px;
+  }
+
+  .p1{
+    font-size: 40px;
+    width: 24px;
+    height: 48px;
+    position: absolute;
+    top: 166px;
+    left: 260px;
+  }
+
+  .p2{
+    font-size: 40px;
+    width: 24px;
+    height: 48px;
+    position: absolute;
+    top: 417px;
+    left: 260px;
+  }
+
+  .p3{
+    font-size: 40px;
+    width: 24px;
+    height: 48px;
+    position: absolute;
+    top: 668px;
+    left: 260px;
+  }
+
+  .p4{
+    font-size: 40px;
+    width: 24px;
+    height: 48px;
+    position: absolute;
+    top: 166px;
+    left: 484px;
+  }
+
+  .p5{
+    font-size: 40px;
+    width: 24px;
+    height: 48px;
+    position: absolute;
+    top: 417px;
+    left: 484px;
+  }
+
+  .p6{
+    font-size: 40px;
+    width: 24px;
+    height: 48px;
+    position: absolute;
+    top: 668px;
+    left: 484px;
+  }
+}
+
+
+
+@media (max-width: 480px){
+  main{
+    width: 480px;
+    height: 600px;
+  }
+
+  .circle1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 50px;
+    top: 90px;
+  }
+
+  .circle2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 190px;
+    top: 90px;
+  }
+
+  .circle3{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 330px;
+    top: 90px;
+  }
+
+  .circle4{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 50px;
+    top: 248px;
+  }
+
+
+  .circle5{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 190px;
+    top: 248px;
+  }
+
+  .circle6{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 330px;
+    top: 248px;
+  }
+
+  .circle7{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 50px;
+    top: 410px;
+  }
+
+  .circle8{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 190px;
+    top: 410px;
+  }
+
+  .circle9{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    left: 330px;
+    top: 410px;
+  }
+
+  .rectangle1{
+    background-color: black;
+    width: 480px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .rectangle2{
+    background-color: black;
+    width: 480px;
+    height: 40px;
+    position: absolute;
+    top: 560px;
+    left: 0px;
+  }
+
+  .rectangle3{
+    background-color: black;
+    width: 20px;
+    height: 560px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
+
+  .rectangle4{
+    background-color: black;
+    width: 20px;
+    height: 560px;
+    position: absolute;
+    top: 40px;
+    left: 460px;
+  }
+
+  .p1{
+    font-size: 30px;
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    top: 94px;
+    left: 161px;
+  }
+
+  .p2{
+    font-size: 30px;
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    top: 252px;
+    left: 161px;
+  }
+
+  .p3{
+    font-size: 30px;
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    top: 414px;
+    left: 161px;
+  }
+
+  .p4{
+    font-size: 30px;
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    top: 94px;
+    left: 301px;
+  }
+
+  .p5{
+    font-size: 30px;
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    top: 252px;
+    left: 301px;
+  }
+
+  .p6{
+    font-size: 30px;
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    top: 414px;
+    left: 301px;
+  }
+}
