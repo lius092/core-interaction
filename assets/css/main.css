@@ -1,0 +1,22 @@
+p{
+  position: relative;
+  text-align: center;
+}
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 6.5%;}
+
+.circle{
+  width: 500px;
+  height: 500px;
+  border-style: dotted;
+  margin: 50px;
+  border-radius: 50%;
+}
+
+.text{
+  padding-top: 240px;
+}
