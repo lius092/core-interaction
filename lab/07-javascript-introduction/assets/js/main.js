@@ -103,21 +103,74 @@ console.log('');
 // FUNCTIONS
 console.log('FUNCTIONS -');
 
-var sayHi = function() {
-  console.log('hi!')
-};
-console.log('sayHi():');
-sayHi();
-
-var saySomeMessage = function(cheese) {
-  console.log(cheese)
-};
-console.log("saySomeMessage('hello'):");
-saySomeMessage('hello');
-saySomeMessage('goodbye');
-
-var addNumbers = function(num1, num2) {
-  return num1 + num2
+var square = function (number) {
+  return number * number
 }
 
-console.log(addNumbers(8,12));
+var Sichao = {
+  name: 'Sichao',
+  age: 19,
+  nativeNewYorker: false,
+}
+
+
+var describeMe = function (me) {
+  return 'My name is ' + me.name + '! I am ' + me.age + ' years old. If you asked me if l am a native New Yorker, my response would be: ' + me.nativeNewYorker
+}
+
+console.log('');
+
+
+// CONDITIONAL STATEMENTS
+console.log('Conditional Statements -')
+
+if (me.age < 21) {
+  console.log ('party time')
+}
+else if (me.age < 5) {
+  console.log('why are you here')
+}
+else {
+  console.log('not quiet yet')
+}
+
+// LOOPS
+console.log('Loops -')
+var hamburgers = 0;
+for (var i = 0; hamburgers < 10; i++) {
+  console.log(hamburgers + ' hamburger(s)');
+  hamburgers++;
+}
+
+for (var i = 0; i < 6; i = i + 2) {
+  console.log(i);
+}
+
+console.log('how many licks does it take to get to the center of a tootsie pop?')
+
+for (var licks = 1; licks <= 4; licks++) {
+  if (licks == 4) {
+    console.log('CRUNCH!!!')
+  } else {
+    console.log(licks)
+  }
+}
+
+// var sayHi = function() {
+//   console.log('hi!')
+// };
+// console.log('sayHi():');
+// sayHi();
+//
+// var saySomeMessage = function(cheese) {
+//   console.log(cheese)
+// };
+// console.log("saySomeMessage('hello'):");
+// saySomeMessage('hello');
+// saySomeMessage('goodbye');
+//
+// var addNumbers = function(num1, num2) {
+//   return num1 + num2
+// }
+//
+// console.log(addNumbers(8,12));
