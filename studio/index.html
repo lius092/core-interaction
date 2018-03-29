@@ -3,14 +3,22 @@
     <head>
         <title>My Core Ineraction Studio Homepage</title>
         <link rel="stylesheet" href="assets/css/main.css">
+
+        <script>
+          function lighton() {
+          document.getElementById('myimage').src = "assets/img/mapusa.png";
+          }
+          function lightoff() {
+          document.getElementById('myimage').src = "assets/img/mapusa2.png";
+          }
+        </script>
     </head>
+
     <body>
       <h1>Core Studio Homepage</h1>
       <p>Welcome!</p>
 
-      <div class="box">
-        <p><a href="01-Miami-TRIP/theme.html">Theme: Travel In The United States</a></p>
-      </div>
+      <div class="transition"><p><a href="01-Miami-TRIP/theme.html">Theme: Travel In The United States</a></p></div>
 
       <div class="container0"><a href="../index.html">Back</a></div>
 
@@ -42,8 +50,10 @@
           </div>
         </div>
 
-        <img src="assets/img/mapusa.png">
-        <img src="assets/img/nymap.jpg">
+        <h2 onmouseover="style.color='#dac292'"onmouseout="style.color='#b9936c'">Click On The Map</h2>
+
+
+        <img id="myimage" onmousedown="lighton()" onmouseup="lightoff()" src="assets/img/mapusa.png" width="80%" height="80%" />
 
     </body>
 </html>
