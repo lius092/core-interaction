@@ -57,3 +57,54 @@ p{
 .text{
   padding-top: 140px;
 }
+
+#map {
+  width: 1240px;
+  height: 840px;
+  margin: auto;
+}
+
+#NY {
+  /* move this around for each state */
+  width: 100px;
+  height: 200px;
+  top: 0;
+  right: 0;
+}
+
+#FL {
+  /* move this around for each state */
+  width: 100px;
+  height: 200px;
+  top: 0;
+  right: 0;
+}
+
+#MA {
+  /* move this around for each state */
+  width: 100px;
+  height: 200px;
+  top: 0;
+  right: 0;
+}
+
+#DC {
+  /* move this around for each state */
+  width: 100px;
+  height: 200px;
+  top: 0;
+  right: 0;
+}
+
+#LA {
+  /* move this around for each state */
+  width: 100px;
+  height: 200px;
+  top: 0;
+  right: 0;
+}
+
+.state_info {
+  position: fixed;
+  display: none;
+}
