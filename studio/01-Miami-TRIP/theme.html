@@ -3,23 +3,42 @@
 
     <head>
         <title>Theme Travel</title>
+        <link rel="stylesheet" href="theme.css">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     </head>
 
     <body>
-      <link rel="stylesheet" href="theme.css">
       <h1 onmouseover="style.color='#dac292'"onmouseout="style.color='#b9936c'">Theme: Travel In The United States</h1>
-      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
       <hr />
 
-      <img src="images/themetravel.jpg">
+      <img id="earth" class="animation1" src="images/airplane-01.png">
+      <img id="plane1" class="animation1" src="images/airplane-02.png">
+      <img id="plane2" class="animation1" src="images/airplane-03.png">
+      <img id="plane3" class="animation1" src="images/airplane-04.png">
 
-      <p>Do you like <a href="https://www.nytimes.com/section/travel">travel around the world</a>? Of course, everyone likes it. As a person who really addicted to travel widely, the theme of my website then related to travel. However, it only insides the United States. It also includes food, art, and adventure. I hope this website can be: Deeply stylish and classy, visually distinct and highly customizable. It is a perfect theme for the users who want to make comments on the travel blogger’s journeys, as well as for the travel blogger to visually document the exploration and share the images with the world at large. Intuitive to the core, this website is coded by the travel blogger to deliver professional quality results. With a completely visual customization interface, deeply powerful admin theme settings, and styling choices, this website will always reflect the personality of the travel blogger behind the website, while simultaneously being unfalteringly classy and worldly. Lastly, this theme is fully integrated social media help users to generate ideas with just one click.</p>
+      <p>Do you like <a href="https://www.nytimes.com/section/travel">travel around the world</a>? Of course, everyone likes it. As a person who really addicted to travel widely, the theme of my website then related to travel. However, it only insides the United States. It also includes food, art, and adventure. I hope this website can be: Deeply stylish and classy, visually distinct and highly customizable. It is a perfect theme for the users who want to make comments on the travel blogger’s journeys, as well as for the travel blogger to visually document the exploration and share the images with the world at large. Intuitive to the core, this website is coded by the travel blogger to deliver professional quality results. With a completely visual customization interface, deeply powerful admin theme settings, and styling choices, this website will always reflect the personality of the travel blogger behind the website, while simultaneously being unfalteringly classy and worldly. Lastly, this theme is fully integrated social media help users to generate ideas with just one click.
+      </p>
 
-      <div onmousedown="mDown(this)" onmouseup="mUp(this)"
-        style=width:100%;height:4%;">
-        <a href="../index.html">Back</a></div>
+      <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="width:100%;height:4%;">
+        <a href="../index.html">Back</a>
+      </div>
 
       <script>
+
+        var plane1 = document.getElementById('plane1');
+
+        setInterval(forward, 50);
+
+        var newX = 0;
+        var newY = 0;
+
+        function forward() {
+          newX += 10;
+          newY += 10;
+          plane1.style.left = newX + 'px';
+          plane1.style.top = newY + 'px';
+        }
+
         function mDown(obj) {
         obj.style.backgroundColor = "#dac292";
         obj.innerHTML = "Have A Nice Day";

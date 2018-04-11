@@ -38,6 +38,16 @@
       		$(document).ready(function () {
 
       			$('#map').usmap({
+              'stateStyles': {
+        	      fill: '#000',
+        	      "stroke-width": 1,
+        	      'stroke' : '#b9936c'
+        	    },
+
+        	    'stateHoverStyles': {
+        	      fill: '#b9936c'
+        	    },
+
       				'mouseoverState': {
       					'HI': function (event, data) {
       						var HI = document.getElementById('HI');

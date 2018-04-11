@@ -18,7 +18,7 @@ $(document).ready(function() {
 	      $('#alert')
 	        .text('Click '+data.name+' on map 1')
 	        .stop()
-	        .css('backgroundColor', '#ff0')
+	        .css('backgroundColor', '#000')
 	        .animate({backgroundColor: '#ddd'}, 1000);
 	    }
 	  });

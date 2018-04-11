@@ -1,6 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 h1{
   font-family: 'Abril Fatface', cursive;
   font-size: 50px;
   letter-spacing: 2px;
   text-align: center;
+}
+
+.animation1 {
+  position: fixed;
+  width: 50%;
+  top: 0;
+  /* transform: scale(0.5, 0.5); */
+}
+
+@-webkit-keyframes spin-right{
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    }
+  }
+
+#earth{
+}
+
+#plane1{
+  animation: spin-right 20s linear infinite;
+}
+
+#plane2{
+
+
+}
+
+#plane3{
+
 }
