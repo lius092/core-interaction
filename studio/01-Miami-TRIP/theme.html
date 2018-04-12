@@ -1,54 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
     <head>
         <title>Theme Travel</title>
         <link rel="stylesheet" href="theme.css">
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     </head>
 
     <body>
-      <h1 onmouseover="style.color='#dac292'"onmouseout="style.color='#b9936c'">Theme: Travel In The United States</h1>
-      <hr />
+      <h1>Theme: Travel In The USA</h1>
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 
-      <img id="earth" class="animation1" src="images/airplane-01.png">
-      <img id="plane1" class="animation1" src="images/airplane-02.png">
-      <img id="plane2" class="animation1" src="images/airplane-03.png">
-      <img id="plane3" class="animation1" src="images/airplane-04.png">
+      <div id="bodyPost">
+        <p onmouseover="style.color='#b9936c'"onmouseout="style.color='black'">
+          Do you like <a href ="http://www.travellector.com/15-reasons-to-travel-around-the-world/">travel around the world</a>? Of course, everyone likes it. As a person who really addicts to travel widely, the theme of this website then relates to "Travel in the United States". As the website designer, l aim to make this website deeply stylish, visually distinctive, and highly customizable. It is convience for the users to understand the transporation, food, art, and more detail informations at here. Hope this website can help users to generate ideas with just one click.
+        </p>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+        <a href="/Users/una/Desktop/core-interation/studio/Homepage/index.html">Back</a>
+    </div>
 
-      <p>Do you like <a href="https://www.nytimes.com/section/travel">travel around the world</a>? Of course, everyone likes it. As a person who really addicted to travel widely, the theme of my website then related to travel. However, it only insides the United States. It also includes food, art, and adventure. I hope this website can be: Deeply stylish and classy, visually distinct and highly customizable. It is a perfect theme for the users who want to make comments on the travel blogger’s journeys, as well as for the travel blogger to visually document the exploration and share the images with the world at large. Intuitive to the core, this website is coded by the travel blogger to deliver professional quality results. With a completely visual customization interface, deeply powerful admin theme settings, and styling choices, this website will always reflect the personality of the travel blogger behind the website, while simultaneously being unfalteringly classy and worldly. Lastly, this theme is fully integrated social media help users to generate ideas with just one click.
-      </p>
 
-      <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="width:100%;height:4%;">
-        <a href="../index.html">Back</a>
-      </div>
+    <div id="image">
+      <img src="/Users/una/Desktop/core-interation/studio/01-Miami-TRIP/images/earth-03.png">
+    </div>
 
-      <script>
+      <img class="draggable" id="image1" src="/Users/una/Desktop/core-interation/studio/01-Miami-TRIP/images/plane-04.png">
+      <img class="draggable" id="image2" src="/Users/una/Desktop/core-interation/studio/01-Miami-TRIP/images/plane-05.png">
+      <img class="draggable" id="image3" src="/Users/una/Desktop/core-interation/studio/01-Miami-TRIP/images/plane-06.png">
+      <img class="draggable" id="image4" src="/Users/una/Desktop/core-interation/studio/01-Miami-TRIP/images/plane-07.png">
 
-        var plane1 = document.getElementById('plane1');
-
-        setInterval(forward, 50);
-
-        var newX = 0;
-        var newY = 0;
-
-        function forward() {
-          newX += 10;
-          newY += 10;
-          plane1.style.left = newX + 'px';
-          plane1.style.top = newY + 'px';
-        }
-
-        function mDown(obj) {
-        obj.style.backgroundColor = "#dac292";
-        obj.innerHTML = "Have A Nice Day";
-      }
-
-      function mUp(obj) {
-        obj.style.backgroundColor="#b9936c";
-        obj.innerHTML="Thank You For Visiting";
-      }
-      </script>
+    <script src="/Users/una/Desktop/core-interation/studio/01-Miami-TRIP/theme.js"></script>
 
     </body>
 </html>
