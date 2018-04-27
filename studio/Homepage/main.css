@@ -1,0 +1,154 @@
+body{
+    background-color: #c4b7a6;
+}
+
+h1{
+  text-align: center;
+  font-size: 100px;
+  color: #b9936c;
+  text-shadow: 5.5px 0px black;
+  letter-spacing: 4px;
+  font-family: 'Josefin Slab', serif;
+  font-style: italic;
+  text-decoration: overline underline;
+  text-decoration-color: black;
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+  color: #b9936c;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+}
+
+p{
+  position: relative;
+  text-align: center;
+}
+
+.transition{
+  margin-left: 45%;
+  margin-right: 45%;
+  text-align: center;
+  width: 10%;
+  height: 10%;
+  background: #b9936c;
+  transition: width 2s;
+  -webkit-transition: width 2s ease-out;
+  padding: 5px;
+}
+
+.transition:hover{
+  width: 20%;
+  transition: scale(2);
+  margin: auto;
+}
+
+.container0{
+  position: relative;
+  text-align: center;
+  margin: 15px;
+}
+
+.state_info {
+  position: fixed;
+  display: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #c4b7a6;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #dac292;
+}
+
+/* selected link */
+a:active {
+    color: #e6e2d3;
+}
+
+
+span{
+  color: red;
+}
+
+
+#temp1{
+  top: 150vh;
+  position: relative;
+  visibility: hidden;
+}
+
+#FL{
+  fill: #b9936c;
+}
+
+#FL:hover{
+  fill: black;
+}
+
+#NY{
+  fill: #b9936c;
+}
+
+#NY:hover{
+  fill: black;
+}
+
+#MA{
+  fill: #b9936c;
+}
+
+#MA:hover{
+  fill: black;
+}
+
+#DC{
+  fill: #b9936c;
+}
+
+#DC:hover{
+  fill: black;
+}
+
+
+#LA{
+  fill: #b9936c;
+}
+
+#LA:hover{
+  fill: black;
+}
+
+#NM{
+  fill: #b9936c;
+}
+
+#NM:hover{
+  fill: black;
+}
+
+#CA{
+  fill: #b9936c;
+}
+
+#CA:hover{
+  fill: black;
+}
+
+#HI{
+  fill: #b9936c;
+}
+
+#HI:hover{
+  fill: black;
+}

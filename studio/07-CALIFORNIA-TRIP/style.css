@@ -1,0 +1,145 @@
+body {
+  background-color: #c4b7a6;
+}
+
+#bttv {
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  width: 40%;
+  position: absolute;
+  line-height: 2.5vw;
+  /* display: inline-block; */
+  font-family: 'Josefin Slab', serif;
+  margin-left: 10vw;
+  margin-top: 1vh;
+  text-align: left;
+}
+
+#ct {
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  width: 40%;
+  position: absolute;
+  line-height: 2.5vw;
+  /* display: inline-block; */
+  font-family: 'Josefin Slab', serif;
+  margin-left: 50vw;
+  margin-top: 85vh;
+  text-align: left;
+}
+
+.container {
+    position: relative;
+    max-width: 800vw;
+    margin-left: 10vw;
+}
+
+.container img {
+  height: 80vh;
+}
+
+.container .content {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 30vw;
+    height: 80vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#cf{
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  width: 40%;
+  position: absolute;
+  line-height: 2.5vw;
+  /* display: inline-block; */
+  font-family: 'Josefin Slab', serif;
+  margin-left: 10vw;
+  margin-top: 150vh;
+  text-align: left;
+}
+
+.container1 {
+    position: relative;
+    max-width: 800vw;
+    margin-left: 10vw;
+    margin-top: 72%;
+}
+
+.container1 video {
+  height: 80vh;
+}
+
+.container1 .content1 {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 30vw;
+    height: 80vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#cm{
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  width: 40%;
+  position: absolute;
+  line-height: 2.5vw;
+  /* display: inline-block; */
+  font-family: 'Josefin Slab', serif;
+  margin-left: 50vw;
+  margin-top: 235vh;
+  text-align: left;
+}
+
+#href{
+  position: absolute;
+  display: block;
+  margin-right: auto;
+  width: 40%;
+  position: absolute;
+  line-height: 2.5vw;
+  /* display: inline-block; */
+  font-family: 'Josefin Slab', serif;
+  margin-left: 10vw;
+  margin-top: 315vh;
+  text-align: left;
+  font-size: 1.8vw;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  font-size: 5vw;
+  color: #b9936c;
+  text-shadow: 5.5px 0px black;
+  letter-spacing: 4px;
+  font-style: italic;
+  text-decoration: overline underline;
+  text-decoration-color: black;
+}
+
+h3 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.8vw;
+  text-decoration: underline;
+}
+
+li{
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3vw;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.3vw;
+}
