@@ -81,12 +81,110 @@ span{
   color: red;
 }
 
-
 #temp1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40%;
+  margin-top: -145vh;
+  color: black;
+  padding-bottom: 10vh;
   top: 150vh;
   position: relative;
   visibility: hidden;
 }
+
+#temp2{
+  font-family: 'Josefin Slab', serif;
+  font-size: 0px;
+  font-weight: bold;
+  margin-left: 70%;
+  margin-top: -150vh;
+  color: black;
+  padding-bottom: 10vh;
+  top: 150vh;
+  position: relative;
+  visibility: hidden;
+}
+
+/* #temp3{
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 70%;
+  margin-top: -145vh;
+  color: black;
+  padding-bottom: 10vh;
+  top: 150vh;
+  position: relative;
+  visibility: hidden;
+}
+
+#temp4{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 38%;
+  margin-top: -145vh;
+  color: black;
+  padding-bottom: 10vh;
+  top: 150vh;
+  position: relative;
+  visibility: hidden;
+}
+
+#temp5{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 38%;
+  margin-top: -145vh;
+  color: black;
+  padding-bottom: 10vh;
+  top: 150vh;
+  position: relative;
+  visibility: hidden;
+}
+
+
+#temp6{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 38%;
+  margin-top: -145vh;
+  color: black;
+  padding-bottom: 10vh;
+  top: 150vh;
+  position: relative;
+  visibility: hidden;
+}
+
+#temp7{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 38%;
+  margin-top: -145vh;
+  color: black;
+  padding-bottom: 10vh;
+  top: 150vh;
+  position: relative;
+  visibility: hidden;
+}
+
+#temp8{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 38%;
+  margin-top: -145vh;
+  color: black;
+  padding-bottom: 10vh;
+  top: 150vh;
+  position: relative;
+  visibility: hidden;
+} */
 
 #FL{
   fill: #b9936c;
