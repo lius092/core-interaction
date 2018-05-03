@@ -95,18 +95,39 @@ h1{
   color: #b9936c;
 }
 
-/* #earth{
+
+
+@media (max-width: 480px){
+
+#bodyPost{
+  font-size: 2vw;
 }
 
-#plane1{
-  animation: spin-right 20s linear infinite;
+#image{
+  right: 5vw;
+  top: 250px;
+  display: inline-block;
+  width: 25vw;
 }
 
-#plane2{
-
-
+#image1{
+  width: 20vw;
+  top: 450px;
 }
 
-#plane3{
+#image2{
+  top: 0px;
+  width: 30vw;
+}
 
-} */
+#image3{
+  top: 0px;
+  width: 35vw;
+}
+
+h1{
+  color: black;
+  text-shadow: none;
+}
+
+}

@@ -143,3 +143,49 @@ ul {
   font-family: 'Josefin Slab', serif;
   font-size: 1.3vw;
 }
+
+
+
+
+@media (max-width: 480px){
+
+  .container img {
+    height: 26vh;
+  }
+
+  .container .content {
+      height: 26vh;
+  }
+
+  #mt{
+    margin-top: 29vh;
+  }
+
+  .container1 video {
+    height: 26vh;
+  }
+
+  .container1 .content1 {
+      height: 26vh;
+  }
+
+  #mf{
+    margin-top: 44vh;
+  }
+
+  #mab{
+    margin-top: 72vh;
+  }
+
+  #href{
+    margin-top: 94vh;
+  }
+
+  h1 {
+    color: black;
+    text-shadow: none;
+  }
+
+
+
+}
