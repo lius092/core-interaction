@@ -54,16 +54,16 @@ p{
 
 .temp {
   font-family: 'Josefin Slab', serif;
-  font-size: 30px;
+  font-size: 2.5vw;
   font-weight: bold;
   position: absolute;
   color: black;
   padding: inherit;
   padding-top: 30px;
-  margin-left: 40%;
+  margin-left: 38.5vw;
   position: absolute;
+  opacity: 0;
 }
-
 
 .state_info {
   position: fixed;
