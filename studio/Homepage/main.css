@@ -51,6 +51,20 @@ p{
   margin: 15px;
 }
 
+
+.temp {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  color: black;
+  padding: inherit;
+  padding-top: 30px;
+  margin-left: 40%;
+  position: absolute;
+}
+
+
 .state_info {
   position: fixed;
   display: none;
@@ -76,177 +90,19 @@ a:active {
     color: #e6e2d3;
 }
 
+#map{
+  padding-top: 40px;
+}
 
 span{
   color: red;
 }
 
-#temp1{
-  font-family: 'Josefin Slab', serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 40%;
-  margin-top: -145vh;
-  color: black;
-  padding-bottom: 10vh;
-  top: 150vh;
-  position: relative;
-  visibility: hidden;
-}
-
-#temp2{
-  font-family: 'Josefin Slab', serif;
-  font-size: 0px;
-  font-weight: bold;
-  margin-left: 70%;
-  margin-top: -150vh;
-  color: black;
-  padding-bottom: 10vh;
-  top: 150vh;
-  position: relative;
-  visibility: hidden;
-}
-
-/* #temp3{
-  font-family: 'Josefin Slab', serif;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 70%;
-  margin-top: -145vh;
-  color: black;
-  padding-bottom: 10vh;
-  top: 150vh;
-  position: relative;
-  visibility: hidden;
-}
-
-#temp4{
-  font-family: 'Josefin Slab', serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 38%;
-  margin-top: -145vh;
-  color: black;
-  padding-bottom: 10vh;
-  top: 150vh;
-  position: relative;
-  visibility: hidden;
-}
-
-#temp5{
-  font-family: 'Josefin Slab', serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 38%;
-  margin-top: -145vh;
-  color: black;
-  padding-bottom: 10vh;
-  top: 150vh;
-  position: relative;
-  visibility: hidden;
-}
-
-
-#temp6{
-  font-family: 'Josefin Slab', serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 38%;
-  margin-top: -145vh;
-  color: black;
-  padding-bottom: 10vh;
-  top: 150vh;
-  position: relative;
-  visibility: hidden;
-}
-
-#temp7{
-  font-family: 'Josefin Slab', serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 38%;
-  margin-top: -145vh;
-  color: black;
-  padding-bottom: 10vh;
-  top: 150vh;
-  position: relative;
-  visibility: hidden;
-}
-
-#temp8{
-  font-family: 'Josefin Slab', serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 38%;
-  margin-top: -145vh;
-  color: black;
-  padding-bottom: 10vh;
-  top: 150vh;
-  position: relative;
-  visibility: hidden;
-} */
-
-#FL{
+.state {
   fill: #b9936c;
+
 }
 
-#FL:hover{
-  fill: black;
-}
-
-#NY{
-  fill: #b9936c;
-}
-
-#NY:hover{
-  fill: black;
-}
-
-#MA{
-  fill: #b9936c;
-}
-
-#MA:hover{
-  fill: black;
-}
-
-#DC{
-  fill: #b9936c;
-}
-
-#DC:hover{
-  fill: black;
-}
-
-
-#LA{
-  fill: #b9936c;
-}
-
-#LA:hover{
-  fill: black;
-}
-
-#NM{
-  fill: #b9936c;
-}
-
-#NM:hover{
-  fill: black;
-}
-
-#CA{
-  fill: #b9936c;
-}
-
-#CA:hover{
-  fill: black;
-}
-
-#HI{
-  fill: #b9936c;
-}
-
-#HI:hover{
+.state:hover {
   fill: black;
 }

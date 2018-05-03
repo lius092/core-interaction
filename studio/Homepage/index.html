@@ -8,7 +8,6 @@
     </head>
 
     <body>
-      <script src="main.js" charset="utf-8"></script>
 
       <h1>Travel In The United States</h1>
       <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
@@ -17,6 +16,13 @@
       <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
       <div class="transition"><p><a href="../01-Miami-TRIP/theme.html">Theme: Travel In The United States</a></p></div>
       <div class="container0"><a href="../../index.html">Back</a></div>
+
+
+      <div class="temp">
+        Temperature: <span class="temp-deg">00</span> deg
+      </div>
+
+      
 
       <div id="map">
         <?xml version="1.0" encoding="utf-8"?>
@@ -27,6 +33,7 @@
         	 style="enable-background:new 0 0 959 593;" xml:space="preserve">
         <style type="text/css">
         	.st0{fill:black;stroke:white;stroke-width:1;}
+          .state{stroke:white;stroke-width:1;}
         </style>
         <defs>
 
@@ -38,7 +45,7 @@
 
 
         <a href="../08-HAWAII-TRIP/index.html">
-          <path onmouseover="myFunction8()" id="HI" class="st0" d="M233.1,519.3l1.9-3.6l2.3-0.3l0.3,0.8l-2.1,3.1H233.1z M243.3,515.6l6.1,2.6l2.1-0.3l1.6-3.9l-0.6-3.4
+          <path class="state" data-zip="96701" d="M233.1,519.3l1.9-3.6l2.3-0.3l0.3,0.8l-2.1,3.1H233.1z M243.3,515.6l6.1,2.6l2.1-0.3l1.6-3.9l-0.6-3.4
         	l-4.2-0.5l-4,1.8L243.3,515.6z M274,525.6l3.7,5.5l2.4-0.3l1.1-0.5l1.5,1.3l3.7-0.2l1-1.5l-2.9-1.8l-1.9-3.7l-2.1-3.6l-5.8,2.9
         	L274,525.6z M294.2,534.5l1.3-1.9l4.7,1l0.6-0.5l6.1,0.6l-0.3,1.3l-2.6,1.5l-4.4-0.3L294.2,534.5z M299.5,539.7l1.9,3.9l3.1-1.1
         	l0.3-1.6l-1.6-2.1l-3.7-0.3V539.7z M306.5,538.5l2.3-2.9l4.7,2.4l4.4,1.1l4.4,2.7v1.9l-3.6,1.8l-4.8,1l-2.4-1.5L306.5,538.5z
@@ -78,7 +85,7 @@
 
 
         <a href="../01-Miami-TRIP/index.html">
-          <path onmouseover="myFunction()" id="FL" sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" class="st0" d="
+          <path class="state" data-zip="33101" sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" class="st0" d="
         	M759.8,439.1l2.3,7.3l3.7,9.7l5.3,9.4l3.7,6.3l4.8,5.5l4,3.7l1.6,2.9l-1.1,1.3l-0.8,1.3l2.9,7.4l2.9,2.9l2.6,5.3l3.6,5.8l4.5,8.2
         	l1.3,7.6l0.5,12l0.6,1.8l-0.3,3.4l-2.4,1.3l0.3,1.9l-0.6,1.9l0.3,2.4l0.5,1.9l-2.7,3.2l-3.1,1.5l-3.9,0.2l-1.5,1.6l-2.4,1l-1.3-0.5
         	l-1.1-1l-0.3-2.9l-0.8-3.4l-3.4-5.2l-3.6-2.3l-3.9-0.3l-0.8,1.3l-3.1-4.4l-0.6-3.6l-2.6-4l-1.8-1.1l-1.6,2.1l-1.8-0.3l-2.1-5
@@ -133,7 +140,7 @@
 
 
         <a href="../02-NYC-TRIP/index.html">
-          <path onmouseover="myFunction2()" id="NY" class="st0" d="M830.4,188.7l-1.1-1l-2.6-0.2l-2.3-1.9l-1.6-6.1l-3.5,0.1l-2.4-2.7l-19.4,4.4l-43,8.7l-7.5,1.2
+          <path class="state" data-zip="10019" d="M830.4,188.7l-1.1-1l-2.6-0.2l-2.3-1.9l-1.6-6.1l-3.5,0.1l-2.4-2.7l-19.4,4.4l-43,8.7l-7.5,1.2
         	l-0.7-6.5l1.4-1.1l1.3-1.1l1-1.6l1.8-1.1l1.9-1.8l0.5-1.6l2.1-2.7l1.1-1l-0.2-1l-1.3-3.1l-1.8-0.2l-1.9-6.1l2.9-1.8l4.4-1.5l4-1.3
         	l3.2-0.5l6.3-0.2l1.9,1.3l1.6,0.2l2.1-1.3l2.6-1.1l5.2-0.5l2.1-1.8l1.8-3.2l1.6-1.9h2.1l1.9-1.1l0.2-2.3l-1.5-2.1l-0.3-1.5l1.1-2.1
         	v-1.5h-1.8l-1.8-0.8l-0.8-1.1l-0.2-2.6l5.8-5.5l0.6-0.8l1.5-2.9l2.9-4.5l2.7-3.7l2.1-2.4l2.4-1.8l3.1-1.2l5.5-1.3l3.2,0.2l4.5-1.5
@@ -215,12 +222,12 @@
 
 
         <a href="../04-WASHINGTON-TRIP/index.html">
-          <path onmouseover="myFunction4()" id="DC" sodipodi:nodetypes="cccccc" class="st0" d="M805.8,250.8L804,249l-1.2-0.7l1.4-2l2.9,1.9L805.8,250.8z"/>
+          <path class="state" data-zip="20001" sodipodi:nodetypes="cccccc" class="st0" d="M805.8,250.8L804,249l-1.2-0.7l1.4-2l2.9,1.9L805.8,250.8z"/>
         </a>
 
 
         <a href="../03-BOSTON-TRIP/index.html">
-          <path onmouseover="myFunction3()" id="MA" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" class="st0" d="M899.6,173.3
+          <path class="state" data-zip="02111" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" class="st0" d="M899.6,173.3
         	l2.2-0.7l0.5-1.7l1,0.1l1,2.3l-1.3,0.5l-3.9,0.1L899.6,173.3z M890.2,174.1l2.3-2.6h1.6l1.8,1.5l-2.4,1l-2.2,1L890.2,174.1z
         	 M855.5,152.1l17.6-4.6l2.3-0.6l1.9-2.8l3.7-1.7l2.9,4.4l-2.4,5.2l-0.3,1.5l1.9,2.6l1.1-0.8h1.8l2.3,2.6l3.9,6l3.6,0.5l2.3-1
         	l1.8-1.8l-0.8-2.7l-2.1-1.6l-1.5,0.8l-1-1.3l0.5-0.5l2.1-0.2l1.8,0.8l1.9,2.4l1,2.9l0.3,2.4l-4.2,1.5l-3.9,1.9l-3.9,4.5l-1.9,1.5v-1
@@ -270,7 +277,7 @@
 
 
         <a href="../05-LOSANGELES-TRIP/index.html">
-          <path onmouseover="myFunction5()" id="LA" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccscccccccccccccccccccccccccccccsccccccccccccccccccccccccccccc" class="st0" d="
+          <path class="state" data-zip="90001" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccscccccccccccccccccccccccccccccsccccccccccccccccccccccccccccc" class="st0" d="
         	M608,459.2l-3.3-3.2l1-5.5l-0.7-0.9l-9.3,1l-25,0.5l-0.7-2.4l0.9-8.5l3.3-5.9l5-8.7l-0.6-2.4l1.3-0.7l0.5-2l-2.3-2.1l-0.1-1.9
         	l-1.8-4.3l-0.1-6.3l-55.5,0.9l0,9.6l0.7,9.4l0.7,3.9l2.5,4.1l0.9,5l4.3,5.5l0.2,3.2l0.7,0.7l-0.7,8.5l-3,5l1.6,2.1l-0.7,2.5
         	l-0.7,7.3l-1.4,3.2l0.1,3.6l4.7-1.5l12.1,0.2l10.3,3.6l6.5,1.1l3.7-1.5l3.2,1.1l3.2,1l0.8-2.1l-3.2-1.1l-2.6,0.5l-2.7-1.6
@@ -322,7 +329,7 @@
 
 
         <a href="../06-NEWMEXICO-TRIP/index.html">
-          <path onmouseover="myFunction6()" id="NM" sodipodi:nodetypes="ccccccccccccccc" class="st0" d="M288.2,424l-0.8-4.7l8.6,0.5l30.2,2.9l27.3,1.7l2.2-18.7
+          <path class="state" data-zip="87102" sodipodi:nodetypes="ccccccccccccccc" class="st0" d="M288.2,424l-0.8-4.7l8.6,0.5l30.2,2.9l27.3,1.7l2.2-18.7
         	l3.9-55.9l1.7-19.4l1.6,0.1l0.8-11.2l-104-10.6l-17.5,120.4l15.5,2l1.3-10L288.2,424z"/>
         </a>
 
@@ -377,7 +384,7 @@
 
 
         <a href="../07-CALIFORNIA-TRIP/index.html">
-          <path onmouseover="myFunction7()" id="CA" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccscc" class="st0" d="
+          <path class="state" data-zip="90003" sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccscc" class="st0" d="
         	M144.7,382.2l3.9-0.5l1.5-2l0.5-2.9l-3.6-0.6l-0.5-0.7l0.5-2l-0.2-0.6l1.9-0.6l3-2.8l0.6-5l1.4-3.4l1.9-2.2l3.5-1.6l1.7-1.6l0.1-2.1
         	l-1-0.6l-1-1.1l-1.2-5.8l-2.7-4.8l0.6-3.5l-2.4-1L84.3,232.5l18.9-67.6l-67.1-15.7l-1.5,4.7l-0.2,7.4l-5.2,11.8l-3.1,2.6l-0.3,1.1
         	l-1.8,0.8l-1.5,4.2l-0.8,3.2l2.7,4.2l1.6,4.2l1.1,3.6l-0.3,6.5l-1.8,3.1l-0.6,5.8l-1,3.7l1.8,3.9l2.7,4.5l2.3,4.8l1.3,4l-0.3,3.2
@@ -393,47 +400,8 @@
         </svg>
       </div>
 
-      <div id="temp1">
-        Temperature: <span class="temp">00</span> deg
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-      </div>
 
-      <div id="temp2">
-        NYC Temperature: <span class="temp">00</span> deg
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-      </div>
-
-      <div id="temp3">
-        Boston Temperature: <span class="temp">00</span> deg
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-      </div>
-
-      <div id="temp4">
-        Washington Temperature: <span class="temp">00</span> deg
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-      </div>
-
-      <div id="temp5">
-        Los Angeles Temperature: <span class="temp">00</span> deg
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-      </div>
-
-      <div id="temp6">
-        New Mexico Temperature: <span class="temp">00</span> deg
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-      </div>
-
-      <div id="temp7">
-        California Temperature: <span class="temp">00</span> deg
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-      </div>
-
-      <div id="temp8">
-        Hawaii Temperature: <span class="temp">00</span> deg
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-      </div>
-
-
+      <script src="main.js" charset="utf-8"></script>
 
     </body>
 </html>
