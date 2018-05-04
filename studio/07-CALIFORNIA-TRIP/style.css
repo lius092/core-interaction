@@ -143,3 +143,49 @@ p {
   font-family: 'Josefin Slab', serif;
   font-size: 1.3vw;
 }
+
+
+
+
+@media (max-width: 480px){
+
+  .container img {
+    height: 26vh;
+  }
+
+  .container .content {
+      height: 26vh;
+  }
+
+  #ct{
+    margin-top: 29.5vh;
+  }
+
+  .container1 video {
+    height: 26vh;
+  }
+
+  .container1 .content1 {
+      height: 26vh;
+  }
+
+  #cf{
+    margin-top: 52vh;
+  }
+
+  #cm{
+    margin-top: 80vh;
+  }
+
+  #href{
+    margin-top: 114vh;
+  }
+
+  h1 {
+    color: black;
+    text-shadow: none;
+  }
+
+
+
+}

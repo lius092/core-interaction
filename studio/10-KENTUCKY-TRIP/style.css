@@ -157,3 +157,50 @@ strong {
 :visited{
   color: #b9936c;
 }
+
+
+
+
+
+@media (max-width: 480px){
+
+  .container img {
+    height: 26vh;
+  }
+
+  .container .content {
+      height: 26vh;
+  }
+
+  #mt{
+    margin-top: 29.5vh;
+  }
+
+  .container1 video {
+    height: 26vh;
+  }
+
+  .container1 .content1 {
+      height: 26vh;
+  }
+
+  #mf{
+    margin-top: 47vh;
+  }
+
+  #mab{
+    margin-top: 75vh;
+  }
+
+  #href{
+    margin-top: 87vh;
+  }
+
+  h1 {
+    color: black;
+    text-shadow: none;
+  }
+
+
+
+}
