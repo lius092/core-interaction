@@ -113,12 +113,14 @@ span{
 
 
 
-@media only screen and (max-width: 480px)
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi)
 
 {
   .temp {
     margin-left: 36vw;
-  }
+}
 
   #link{
     display: inline-block;
@@ -130,4 +132,4 @@ span{
     color: #b9936c;
   }
 
-}
+};
