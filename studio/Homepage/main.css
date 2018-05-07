@@ -125,6 +125,7 @@ span{
     display: inline-block;
     font-size: 2.5vw;
     margin-left: 44.5%;
+    color: black;
   }
 
   #link:visited{
