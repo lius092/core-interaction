@@ -72,7 +72,7 @@ p{
 
 /* unvisited link */
 a:link {
-    color: #c4b7a6;
+    color: black;
 }
 
 /* visited link */
@@ -129,7 +129,7 @@ span{
   }
 
   #link:visited{
-    color: #b9936c;
+    color: black;
   }
 
 };
